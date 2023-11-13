@@ -41,7 +41,7 @@ export const getHotel = async (req, res, next) => {
 };
 export const getHotels = async (req, res, next) => {
   const { min, max, city, ...others } = req.query;
-  // console.log(city, "city")
+  console.log(city, "city")
   try {
     const query = {
       ...others,
@@ -62,7 +62,7 @@ export const getHotels = async (req, res, next) => {
       ],
 
     }).limit(req.query.limit);
-    // console.log(hotels);
+    console.log(hotels);
     res.status(200).json(hotels);
   } catch (err) {
     next(err);
@@ -91,13 +91,6 @@ export const countByType = async (req, res, next) => {
     Hotel.countDocuments({ type: "Budget" }),
     Hotel.countDocuments({ type: "Boutique" })])
 
-    // console.log([
-    //   { type: "Luxury", count: hotelCount },
-    //   { type: "Business", count: apartmentCount },
-    //   { type: "resorts", count: resortCount },
-    //   { type: "Resort", count: villaCount },
-    //   { type: "Boutique", count: cabinCount },
-    // ])
    return res.status(200).json([
     { type: "Luxury", count: hotelCount },
     { type: "Business", count: apartmentCount },

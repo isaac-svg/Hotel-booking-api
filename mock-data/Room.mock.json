@@ -1,0 +1,425 @@
+[
+  {
+    "title": "Deluxe Suite",
+    "price": 300,
+    "maxPeople": 2,
+    "desc": "Experience luxury in our deluxe suite.",
+    "roomNumbers": [
+      {
+        "number": 101,
+        "unavailableDates": ["2023-11-01", "2023-11-15"]
+      },
+      {
+        "number": 102,
+        "unavailableDates": ["2023-11-16", "2023-11-30"]
+      },
+      {
+        "number": 103,
+        "unavailableDates": ["2023-12-01", "2023-12-15"]
+      }
+    ]
+  },
+  {
+    "title": "Cozy Studio",
+    "price": 150,
+    "maxPeople": 1,
+    "desc": "A cozy studio for a peaceful stay.",
+    "roomNumbers": [
+      {
+        "number": 201,
+        "unavailableDates": ["2023-10-25", "2023-11-05"]
+      },
+      {
+        "number": 202,
+        "unavailableDates": ["2023-11-06", "2023-11-20"]
+      },
+      {
+        "number": 203,
+        "unavailableDates": ["2023-11-21", "2023-12-05"]
+      }
+    ]
+  },
+  {
+    "title": "Family Suite",
+    "price": 400,
+    "maxPeople": 4,
+    "desc": "Perfect for a family getaway with spacious accommodations.",
+    "roomNumbers": [
+      {
+        "number": 301,
+        "unavailableDates": ["2023-11-10", "2023-11-20"]
+      },
+      {
+        "number": 302,
+        "unavailableDates": ["2023-11-21", "2023-12-01"]
+      },
+      {
+        "number": 303,
+        "unavailableDates": ["2023-12-02", "2023-12-12"]
+      }
+    ]
+  },
+  {
+    "title": "Executive Room",
+    "price": 220,
+    "maxPeople": 2,
+    "desc": "Ideal for business travelers with modern amenities.",
+    "roomNumbers": [
+      {
+        "number": 401,
+        "unavailableDates": ["2023-10-28", "2023-11-08"]
+      },
+      {
+        "number": 402,
+        "unavailableDates": ["2023-11-09", "2023-11-23"]
+      },
+      {
+        "number": 403,
+        "unavailableDates": ["2023-11-24", "2023-12-08"]
+      }
+    ]
+  },
+  {
+    "title": "Charming Cottage",
+    "price": 180,
+    "maxPeople": 3,
+    "desc": "Experience the charm of our cottage with a fireplace.",
+    "roomNumbers": [
+      {
+        "number": 501,
+        "unavailableDates": ["2023-10-30", "2023-11-12"]
+      },
+      {
+        "number": 502,
+        "unavailableDates": ["2023-11-13", "2023-11-27"]
+      },
+      {
+        "number": 503,
+        "unavailableDates": ["2023-11-28", "2023-12-12"]
+      }
+    ]
+  },
+  {
+    "title": "Deluxe Double",
+    "price": 250,
+    "maxPeople": 2,
+    "desc": "A deluxe double room with panoramic views.",
+    "roomNumbers": [
+      {
+        "number": 601,
+        "unavailableDates": ["2023-11-03", "2023-11-18"]
+      },
+      {
+        "number": 602,
+        "unavailableDates": ["2023-11-19", "2023-12-03"]
+      },
+      {
+        "number": 603,
+        "unavailableDates": ["2023-12-04", "2023-12-18"]
+      }
+    ]
+  },
+  {
+    "title": "Mountain View Retreat",
+    "price": 350,
+    "maxPeople": 2,
+    "desc": "Enjoy breathtaking mountain views in our retreat.",
+    "roomNumbers": [
+      {
+        "number": 701,
+        "unavailableDates": ["2023-11-07", "2023-11-14"]
+      },
+      {
+        "number": 702,
+        "unavailableDates": ["2023-11-15", "2023-11-30"]
+      },
+      {
+        "number": 703,
+        "unavailableDates": ["2023-12-01", "2023-12-15"]
+      }
+    ]
+  },
+  {
+    "title": "Elegant Penthouse",
+    "price": 500,
+    "maxPeople": 2,
+    "desc": "Experience luxury living in our elegant penthouse suite.",
+    "roomNumbers": [
+      {
+        "number": 801,
+        "unavailableDates": ["2023-11-02", "2023-11-16"]
+      },
+      {
+        "number": 802,
+        "unavailableDates": ["2023-11-17", "2023-12-01"]
+      },
+      {
+        "number": 803,
+        "unavailableDates": ["2023-12-02", "2023-12-16"]
+      }
+    ]
+  },
+  {
+    "title": "Seaside Bungalow",
+    "price": 250,
+    "maxPeople": 2,
+    "desc": "Relax in our cozy seaside bungalow near the beach.",
+    "roomNumbers": [
+      {
+        "number": 901,
+        "unavailableDates": ["2023-11-05", "2023-11-11"]
+      },
+      {
+        "number": 902,
+        "unavailableDates": ["2023-11-12", "2023-11-27"]
+      },
+      {
+        "number": 903,
+        "unavailableDates": ["2023-11-28", "2023-12-13"]
+      }
+    ]
+  },
+  {
+    "title": "Rustic Cabin",
+    "price": 200,
+    "maxPeople": 2,
+    "desc": "Embrace nature in our rustic cabin surrounded by woods.",
+    "roomNumbers": [
+      {
+        "number": 1001,
+        "unavailableDates": ["2023-11-04", "2023-11-19"]
+      },
+      {
+        "number": 1002,
+        "unavailableDates": ["2023-11-20", "2023-12-04"]
+      },
+      {
+        "number": 1003,
+        "unavailableDates": ["2023-12-05", "2023-12-19"]
+      }
+    ]
+  },
+  {
+    "title": "Urban Loft",
+    "price": 300,
+   
+
+ "maxPeople": 2,
+    "desc": "Modern living in our stylish urban loft with city views.",
+    "roomNumbers": [
+      {
+        "number": 1101,
+        "unavailableDates": ["2023-11-08", "2023-11-15"]
+      },
+      {
+        "number": 1102,
+        "unavailableDates": ["2023-11-16", "2023-11-30"]
+      },
+      {
+        "number": 1103,
+        "unavailableDates": ["2023-12-01", "2023-12-15"]
+      }
+    ]
+  },
+  {
+    "title": "Country Retreat",
+    "price": 220,
+    "maxPeople": 3,
+    "desc": "Escape to our peaceful country retreat with a garden.",
+    "roomNumbers": [
+      {
+        "number": 1201,
+        "unavailableDates": ["2023-10-29", "2023-11-13"]
+      },
+      {
+        "number": 1202,
+        "unavailableDates": ["2023-11-14", "2023-11-29"]
+      },
+      {
+        "number": 1203,
+        "unavailableDates": ["2023-11-30", "2023-12-15"]
+      }
+    ]
+  },
+  {
+    "title": "Spacious Loft",
+    "price": 400,
+    "maxPeople": 4,
+    "desc": "Enjoy the spaciousness of our loft accommodation with a balcony.",
+    "roomNumbers": [
+      {
+        "number": 1301,
+        "unavailableDates": ["2023-11-06", "2023-11-17"]
+      },
+      {
+        "number": 1302,
+        "unavailableDates": ["2023-11-18", "2023-12-02"]
+      },
+      {
+        "number": 1303,
+        "unavailableDates": ["2023-12-03", "2023-12-18"]
+      }
+    ]
+  },
+  {
+    "title": "Quaint Cottage",
+    "price": 180,
+    "maxPeople": 2,
+    "desc": "Experience the quaint charm of our cottage with a fireplace.",
+    "roomNumbers": [
+      {
+        "number": 1401,
+        "unavailableDates": ["2023-11-01", "2023-11-14"]
+      },
+      {
+        "number": 1402,
+        "unavailableDates": ["2023-11-15", "2023-11-30"]
+      },
+      {
+        "number": 1403,
+        "unavailableDates": ["2023-12-01", "2023-12-15"]
+      }
+    ]
+  },
+  {
+    "title": "Classic Suite",
+    "price": 450,
+    "maxPeople": 2,
+    "desc": "Indulge in classic luxury in our spacious suite with a view.",
+    "roomNumbers": [
+      {
+        "number": 1501,
+        "unavailableDates": ["2023-11-03", "2023-11-16"]
+      },
+      {
+        "number": 1502,
+        "unavailableDates": ["2023-11-17", "2023-12-01"]
+      },
+      {
+        "number": 1503,
+        "unavailableDates": ["2023-12-02", "2023-12-16"]
+      }
+    ]
+  },
+  {
+    "title": "Luxury Retreat",
+    "price": 350,
+    "maxPeople": 3,
+    "desc": "Indulge in luxury and serenity at our exclusive retreat.",
+    "roomNumbers": [
+      { "number": 1601, "unavailableDates": ["2023-11-05", "2023-11-10"] },
+      { "number": 1602, "unavailableDates": ["2023-11-15", "2023-11-20"] },
+      { "number": 1603, "unavailableDates": ["2023-11-25", "2023-11-30"] }
+    ]
+  },
+  {
+    "title": "Sunset View Suite",
+    "price": 280,
+    "maxPeople": 2,
+    "desc": "Witness breathtaking sunsets from our panoramic suite.",
+    "roomNumbers": [
+      { "number": 1701, "unavailableDates": ["2023-11-03", "2023-11-08"] },
+      { "number": 1702, "unavailableDates": ["2023-11-13", "2023-11-18"] },
+      { "number": 1703, "unavailableDates": ["2023-11-23", "2023-11-28"] }
+    ]
+  },
+  {
+    "title": "Serenity Villa",
+    "price": 450,
+    "maxPeople": 4,
+    "desc": "Escape to a serene oasis in our luxurious villa.",
+    "roomNumbers": [
+      { "number": 1801, "unavailableDates": ["2023-11-01", "2023-11-07"] },
+      { "number": 1802, "unavailableDates": ["2023-11-12", "2023-11-18"] },
+      { "number": 1803, "unavailableDates": ["2023-11-23", "2023-11-29"] }
+    ]
+  },
+  {
+    "title": "Modern Loft",
+    "price": 320,
+    "maxPeople": 3,
+    "desc": "Experience contemporary living in our modern loft.",
+    "roomNumbers": [
+      { "number": 1901, "unavailableDates": ["2023-11-03", "2023-11-09"] },
+      { "number": 1902, "unavailableDates": ["2023-11-14", "2023-11-20"] },
+      { "number": 1903, "unavailableDates": ["2023-11-25", "2023-12-01"] }
+    ]
+  },
+  {
+    "title": "Panoramic Penthouse",
+    "price": 500,
+    "maxPeople": 2,
+    "desc": "Enjoy panoramic views from our luxurious penthouse.",
+    "roomNumbers": [
+      { "number": 2001, "unavailableDates": ["2023-11-02", "2023-11-08"] },
+      { "number": 2002, "unavailableDates": ["2023-11-13", "2023-11-19"] },
+      { "number": 2003, "unavailableDates": ["2023-11-24", "2023-11-30"] }
+    ]
+  },
+  {
+    "title": "Riverside Cabin",
+    "price": 180,
+    "maxPeople": 2,
+    "desc": "Embrace nature by the river in our cozy cabin.",
+    "roomNumbers": [
+      { "number": 2101, "unavailableDates": ["2023-11-01", "2023-11-06"] },
+      { "number": 2102, "unavailableDates": ["2023-11-11", "2023-11-16"] },
+      { "number": 2103, "unavailableDates": ["2023-11-21", "2023-11-26"] }
+    ]
+  },
+  {
+    "title": "Harbor View Suite",
+    "price": 380,
+    "maxPeople": 2,
+    "desc": "Enjoy stunning harbor views in our luxurious suite.",
+    "roomNumbers": [
+      { "number": 2201, "unavailableDates": ["2023-11-03", "2023-11-08"] },
+      { "number": 2202, "unavailableDates": ["2023-11-13", "2023-11-18"] },
+      { "number": 2203, "unavailableDates": ["2023-11-23", "2023-11-28"] }
+    ]
+  },
+  {
+    "title": "Countryside Cottage",
+    "price": 200,
+    "maxPeople": 2,
+    "desc": "Experience tranquility in our charming countryside cottage.",
+    "roomNumbers": [
+      { "number": 2301, "unavailableDates": ["2023-11-02", "2023-11-07"] },
+      { "number": 2302, "unavailableDates": ["2023-11-12", "2023-11-17"] },
+      { "number": 2303, "unavailableDates": ["2023-11-22", "2023-11-27"] }
+    ]
+  },
+  {
+    "title": "Beachfront Bungalow",
+    "price": 300,
+    "maxPeople": 2,
+    "desc": "Relax by the beach in our cozy beachfront bungalow.",
+    "roomNumbers": [
+      { "number": 2401, "unavailableDates": ["2023-11-01", "2023-11-06"] },
+      { "number": 2402, "unavailableDates": ["2023-11-11", "2023-11-16"] },
+      { "number": 2403, "unavailableDates": ["2023-11-21", "2023-11-26"] }
+    ]
+  },
+  {
+    "title": "Grand Chateau",
+    "price": 600,
+    "maxPeople": 4,
+    "desc": "Experience grandeur in our luxurious chateau with spacious rooms.",
+    "roomNumbers": [
+      { "number": 2501, "unavailableDates": ["2023-11-03", "2023-11-09"] },
+      { "number": 2502, "unavailableDates": ["2023-11-14", "2023-11-20"] },
+      { "number": 2503, "unavailableDates": ["2023-11-25", "2023-12-01"] }
+    ]
+  },
+  {
+    "title": "Enchanted Forest Cabin",
+    "price": 220,
+    "maxPeople": 2,
+    "desc": "Escape to an enchanted forest in our rustic cabin.",
+    "roomNumbers": [
+      { "number": 2601, "unavailableDates": ["2023-11-02", "2023-11-08"] },
+      { "number": 2602, "unavailableDates": ["2023-11-13", "2023-11-19"] },
+      { "number": 2603, "unavailableDates": ["2023-11-24", "2023-11-30"] }
+    ]
+  }
+]

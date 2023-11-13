@@ -7,6 +7,13 @@ import hotelsRoute from "./routes/hotels.js";
 import roomsRoute from "./routes/rooms.js";
 import cookieParser from "cookie-parser";
 import cors from "cors";
+// import mockHotelData from "./mock-data/Room.mock.json"
+import Hotel from "./models/Hotel.js";
+
+import * as fs from 'fs';
+import Room from "./models/Room.js";
+
+// const mockHotelData = JSON.parse(fs.readFileSync('./mock-data/Room.mock.json', 'utf-8'));
 
 const app = express();
 dotenv.config();
@@ -25,7 +32,11 @@ mongoose.connection.on("disconnected", () => {
 });
 
 //middlewares
-app.use(cors())
+app.use(cors(
+  {
+    origin:'*'
+  }
+))
 app.use(cookieParser())
 app.use(express.json());
 
@@ -45,7 +56,10 @@ app.use((err, req, res, next) => {
   });
 });
 const PORT = process.env.PORT || 8080
-app.listen(PORT, () => {
+app.listen(PORT,async () => {
   connect();
+  // console.log(mockHotelData)
+  // const _ = await Room.insertMany(mockHotelData)
+  // console.log(_)
   console.log("Connected to backend.");
 });

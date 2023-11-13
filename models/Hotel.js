@@ -49,4 +49,6 @@ const HotelSchema = new mongoose.Schema({
   },
 });
 
-export default mongoose.model("Hotel", HotelSchema)
+const Hotel = mongoose.model("Hotel", HotelSchema)
+// Hotel.collection.createIndex({ city: 'text' }, { background: true });
+export default Hotel

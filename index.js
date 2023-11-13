@@ -32,7 +32,9 @@ mongoose.connection.on("disconnected", () => {
 });
 
 //middlewares
-app.use(cors())
+app.use(cors(
+  {origin:"https://hotel-booking-app-ui.vercel.app"}
+))
 app.use(cookieParser())
 app.use(express.json());
 

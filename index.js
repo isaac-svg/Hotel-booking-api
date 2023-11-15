@@ -33,9 +33,10 @@ mongoose.connection.on("disconnected", () => {
 
 //middlewares
 app.use(cors(
-  {origin:"http://localhost:5173",
+  {origin:"https://hotel-booking-app-ui.vercel.app/",
 }
 ))
+
 app.use(cookieParser())
 app.use(express.json());
 
@@ -54,6 +55,7 @@ app.use((err, req, res, next) => {
     stack: err.stack,
   });
 });
+
 const PORT = process.env.PORT || 8080
 app.listen(PORT,async () => {
   connect();

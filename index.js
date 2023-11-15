@@ -33,13 +33,14 @@ mongoose.connection.on("disconnected", () => {
 
 //middlewares
 app.use(cors(
-  {origin:"https://hotel-booking-app-ui.vercel.app",
+  {origin:"http://localhost:5173",
 }
 ))
 app.use(cookieParser())
 app.use(express.json());
 
 app.use("/api/auth", authRoute);
+app.use("",authRoute)
 app.use("/api/users", usersRoute);
 app.use("/api/hotels", hotelsRoute);
 app.use("/api/rooms", roomsRoute);
@@ -60,5 +61,5 @@ app.listen(PORT,async () => {
   // console.log(mockHotelData)
   // const _ = await Room.insertMany(mockHotelData)
   // console.log(_)
-  console.log("Connected to backend.");
+  console.log("Connected to server on: ", PORT);
 });

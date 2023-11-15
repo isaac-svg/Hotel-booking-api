@@ -18,10 +18,14 @@ const connect = async () => {
   try {
     await mongoose.connect(process.env.MONGO);
     console.log("Connected to mongoDB.");
+    app.listen(PORT,async () => {
+      console.log("Connected to server on: ", PORT);
+    });
   } catch (error) {
     throw error;
   }
 };
+connect();
 
 mongoose.connection.on("disconnected", () => {
   console.log("mongoDB disconnected!");
@@ -53,7 +57,4 @@ app.use((err, req, res, next) => {
 });
 
 const PORT = process.env.PORT || 8080
-app.listen(PORT,async () => {
-  connect();
-  console.log("Connected to server on: ", PORT);
-});
+
